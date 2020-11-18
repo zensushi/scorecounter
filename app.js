@@ -19,7 +19,7 @@ for (let member of team) {
 
     const img = document.createElement('img');
     img.src = `img/${member}.jpeg`;
-    img.style.border =`2px solid ${randColor}`
+    img.style.border =`3.5px solid ${randColor}`
 
     const name = document.createElement('h3');
     name.innerText=`${member}`;
