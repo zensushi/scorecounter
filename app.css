@@ -35,5 +35,5 @@ h3 {
 p {
     height: 20px;
     width: 50px;
-    background-color: lightcoral;
+    border: 1px solid white;
 }
