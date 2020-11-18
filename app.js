@@ -32,7 +32,7 @@ for (let member of team) {
     player.classList.add('player');
     player.addEventListener('click',
         function win() {
-            const graph = document.createElement('p');
+            const graph = document.createElement('span');
             graph.style.backgroundColor = `${randColor}`;
             this.appendChild(graph);
         });
