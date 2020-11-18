@@ -21,7 +21,7 @@ for (let member of team) {
     img.src = `img/${member}.jpeg`;
     img.style.border =`3.5px solid ${randColor}`
 
-    const name = document.createElement('h3');
+    const name = document.createElement('h2');
     name.innerText=`${member}`;
     
     div.appendChild(player);

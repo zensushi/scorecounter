@@ -19,25 +19,26 @@ div {
 }
 .identity {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    margin: 5px 10px;
-    width: 60px;
+    margin: 10px 30px;
+    /* width: 60px; */
 }
 img {
-    width: 40px;
+    width: 50px;
     object-fit: cover;
-    height:40px;
+    height:50px;
     border-radius: 50%;
 }
-h3 {
-    font-size: 0.8rem;
+h2 {
+    font-size: 0.9rem;
     line-height: 0rem;
+    width: 45px;
+    padding: 15px;
 }
 
 span {
     height: 20px;
     width: 50px;
-    border: 1px solid rgb(238, 238, 238);
     margin: 0 1px;
 }
