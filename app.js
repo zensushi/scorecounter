@@ -9,7 +9,7 @@ function genColor() {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
-const team = ['Claudia', 'Enrico', 'Giulia', 'Oscar', 'Pierpaolo', 'Rosita', 'Vieri'];
+const team = ['Antonio', 'Claudia', 'Giulia', 'Oscar', 'Pierpaolo', 'Rosita', 'Vieri'];
 const div = document.querySelector('div')
 
 for (let member of team) {
