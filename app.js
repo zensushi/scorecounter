@@ -36,4 +36,9 @@ for (let member of team) {
             graph.style.backgroundColor = `${randColor}`;
             this.appendChild(graph);
         });
+    player.addEventListener('contextmenu', 
+        function lose(ev) {
+            ev.preventDefault();
+            this.removeChild(this.lastChild);
+        });
 }
